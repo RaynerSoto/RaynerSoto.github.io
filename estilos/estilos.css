@@ -1,9 +1,3 @@
-header{
-    border-color: red;
-    background: aquamarine;
-}
-
-h2{
-    font-family: Arial;
-    font-size: math;
+.lista_recta{
+    padding-right: 20px;
 }
