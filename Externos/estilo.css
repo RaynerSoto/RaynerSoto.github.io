@@ -1,0 +1,15 @@
+body{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color: blue;
+    font-size: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 120px;
+}
