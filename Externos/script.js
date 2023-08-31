@@ -10,7 +10,14 @@ function cumple(){
     let dias = diferencia / (1000 * 60 * 60 * 24);
     let rendondeado = Math.ceil(dias)
     if(rendondeado == 0){
-
+        let elemento = document.getElementById("fecha");
+        elemento.innerHTML = "Felicidades BB";
+        let elemento2 = document.getElementById("regalo");
+        elemento2.style.display = "block";
+        elemento2.style.alignContent = "center";
+        elemento2.style.alignItems = "center";
+        elemento2.style.alignSelf = "center";
+        elemento2.style.textAlign = "center";
     }
     else{
         if (rendondeado<0){
