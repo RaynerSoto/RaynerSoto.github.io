@@ -19,7 +19,11 @@ function cumple(){
         console.log(rendondeado);
         let elemento = document.getElementById("fecha");
         elemento.innerHTML = rendondeado + " días restantes";
+        let elemento1 = document.getElementById("hora_actual");
+        elemento1.innerHTML = hoy.getHours()+":"+hoy.getMinutes()+":"+hoy.getSeconds();
     }
 }
 
-cumple()
+function repetirCadaSegundo() {
+    identificadorIntervaloDeTiempo = setInterval(cumple, 1000);
+}
